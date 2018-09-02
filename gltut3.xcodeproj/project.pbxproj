@@ -12,17 +12,19 @@
 		5246E4FD213C674A00F608E6 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5246E4FC213C674A00F608E6 /* libglfw.3.2.dylib */; };
 		5246E500213C696500F608E6 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 5246E4FF213C696400F608E6 /* glad.c */; };
 		5246E504213C7FC500F608E6 /* shader.c in Sources */ = {isa = PBXBuildFile; fileRef = 5246E503213C7FC400F608E6 /* shader.c */; };
+		5246E506213C9BA800F608E6 /* container.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5246E505213C9B8800F608E6 /* container.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5246E4ED213C664600F608E6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				5246E506213C9BA800F608E6 /* container.jpg in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -36,6 +38,7 @@
 		5246E501213C6ACE00F608E6 /* glad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		5246E502213C7FC300F608E6 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shader.h; path = ../../../OpenGLStuff/shader.h; sourceTree = "<group>"; };
 		5246E503213C7FC400F608E6 /* shader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shader.c; path = ../../../OpenGLStuff/shader.c; sourceTree = "<group>"; };
+		5246E505213C9B8800F608E6 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = container.jpg; path = ../../../OpenGLStuff/container.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 		5246E4F1213C664600F608E6 /* gltut3 */ = {
 			isa = PBXGroup;
 			children = (
+				5246E505213C9B8800F608E6 /* container.jpg */,
 				5246E503213C7FC400F608E6 /* shader.c */,
 				5246E502213C7FC300F608E6 /* shader.h */,
 				5246E4FF213C696400F608E6 /* glad.c */,
